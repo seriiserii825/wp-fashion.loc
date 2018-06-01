@@ -13,14 +13,30 @@
 </div>
 
 <div class="sidebar">
-    <div>
-        <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/side-img1.jpg" alt="" /></a>
-        <h1><a href="#">Skill Set</a></h1>
-        <p>Sed dolor ligula, tempus vitae malesuada utescu
-            congue vitae diam. Integer non nisl est. Suspen
-        isse at diam turpis, ut mattis velit. Praesent vel est non augue pretium condimentum at in mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in varius ante. Etiam et nisi eget velit dignissim gravida ac nec quam. Aenean imperdiet massa quis diam tempunec.</p>
-        <p><a href="#" class="read-more">read more</a></p>
-    </div>
+    <?php $about_post = new WP_Query([
+            'posts_per_page' => 1,
+            'post_type' => 'post',
+            'category_name=exhibitions,latest-photo-shoot',
+            'orderby' => 'rand'
+        ]); ?>
+
+    <?php if ( $about_post->have_posts() ) : while ( $about_post->have_posts() ) : $about_post->the_post(); ?>
+        <div>
+            <a href="<?php the_permalink(); ?>">
+                <?php the_post_thumbnail(); ?>
+            </a>
+            <h1><a href="#"><?php the_title(); ?></a></h1>
+
+            <?php the_excerpt(); ?>
+
+            <p><a href="<?php the_permalink(); ?>" class="read-more">read more</a></p>
+        </div>
+      <?php endwhile; ?>
+      <!-- post navigation -->
+      <?php else: ?>
+      <!-- no posts found -->
+    <?php endif; ?>
+    
 </div>
 
 </div>  
