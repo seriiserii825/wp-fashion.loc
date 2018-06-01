@@ -1,5 +1,19 @@
 <?php 
 
+add_action('widgets_init', 'register_fashion_widgets');
+
+function register_fashion_widgets(){
+    $args = array(
+    'name'          => 'Слайдер',
+    'id'            => 'slider-top',
+    'description'   => 'Добавьте слайды через виджет текст',
+    'before_widget' => '',
+    'after_widget'  => ''
+    );
+
+    register_sidebar( $args );
+}
+
 /**
  * Enqueue scripts
  *
@@ -21,3 +35,10 @@ function fashion_styles_scripts() {
     wp_enqueue_script( 'jquery.elastislide', get_template_directory_uri().'/js/jquery.elastislide.js', ['fashion-jquery'], null, true );
 }
 add_action( 'wp_enqueue_scripts', 'fashion_styles_scripts' );
+
+/**
+ * menu
+ */
+register_nav_menu( 'main-menu', 'Главное меню' );
+
+
