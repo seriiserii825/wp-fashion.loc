@@ -1,6 +1,11 @@
 <?php 
 
 add_action('widgets_init', 'register_fashion_widgets');
+add_action('after_setup_theme', 'fashion_after_setup_theme');
+
+function fashion_after_setup_theme(){
+    add_theme_support('post-thumbnails');
+}
 
 function register_fashion_widgets(){
     $args = array(
