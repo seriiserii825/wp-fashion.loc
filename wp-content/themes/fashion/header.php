@@ -25,7 +25,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 <div class="karkas">
     <div class="header">
         <a href="/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="logo" alt="Fashion photographer" /></a>

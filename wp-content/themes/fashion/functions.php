@@ -2,6 +2,38 @@
 
 add_action('widgets_init', 'register_fashion_widgets');
 add_action('after_setup_theme', 'fashion_after_setup_theme');
+remove_shortcode( 'gallery' );
+add_shortcode( 'gallery', 'fashion_shortcode_gallery' );
+
+function fashion_shortcode_gallery($atts){
+    $img_id = explode(',', $atts['ids']);
+
+    $html = '<ul id="slide_2" class="slidik">';
+
+    $pattern = '#(width|height)="\d+"\s#';
+    $i = 1;
+    foreach ($img_id as $id) {
+        $img = wp_get_attachment_image( $id, 'full');
+
+        $img = preg_replace($pattern, '', $img);
+
+        if($i == 1){
+            $html .= '<li class="show">'.$img.'</li>';
+        }else{
+            $html .= '<li>'.$img.'</li>';
+        }
+        
+    }
+
+    $html .= '<a data-slidik="slide_2" class="next" href="#">Next</a>
+            <a data-slidik="slide_2" class="prev" href="#">Prev</a>
+            <div class="captionWrap"><div data-slidik="slide_2" class="caption"></div></div>
+            <div class="portfolio-close"><a href="#"></a></div>';
+
+    $html .= '</ul>';
+
+    return $html;
+}
 
 /**
  * Enqueue scripts
@@ -18,6 +50,13 @@ function fashion_styles_scripts() {
         wp_enqueue_script( 'modernizr.custom', get_template_directory_uri().'/js/modernizr.custom.17475.js');
         wp_enqueue_script( 'jquerypp.custom', get_template_directory_uri().'/js/jquerypp.custom.js',  ['fashion-jquery'], null, true );
         wp_enqueue_script( 'jquery.elastislide', get_template_directory_uri().'/js/jquery.elastislide.js', ['fashion-jquery'], null, true );
+    }
+
+    if(in_category('portfolio')){
+        wp_enqueue_style('fashion-liSlidik', get_template_directory_uri().'/css/liSlidik.css');
+        wp_enqueue_style('fashion-liSlidik-black', get_template_directory_uri().'/css/liSlidik.blackClasic.css');
+
+        wp_enqueue_script( 'fashion-jquery.liSlidik', get_template_directory_uri().'/js/jquery.liSlidik.js', ['fashion-jquery']);   
     }
 
 }

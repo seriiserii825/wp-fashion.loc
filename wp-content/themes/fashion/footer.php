@@ -26,5 +26,18 @@
 
 <?php endif; ?>
 
+<?php if(in_category('portfolio')): ?>
+    <script>
+        $(function(){
+            $(window).load(function(){
+                $('#slide_2').liSlidik({
+                    auto:3000,
+                    duration: 1000
+                });
+            })
+        });
+        </script>
+<?php endif; ?>
+
 </body>
 </html>
