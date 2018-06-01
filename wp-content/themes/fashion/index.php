@@ -1,8 +1,10 @@
 <?php get_header(); ?>
+
     <div class="content-main">
         <?php if(!dynamic_sidebar( 'slider-top' )): ?>
             <h2>Добавьте элементы слайдера через виджет html!!!</h2>    
         <?php endif; ?>
+
         <div class="content-main-blocks">
             <?php $posts_index = new WP_Query([
                     'posts_per_page' => 3,

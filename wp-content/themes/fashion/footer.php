@@ -16,7 +16,7 @@
 
 <?php wp_footer(); ?>
 
-<?php if(is_home()): ?>
+<?php if(is_home() || is_category('portfolio')): ?>
 
     <script type="text/javascript">
             
