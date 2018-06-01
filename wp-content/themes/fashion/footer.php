@@ -1,3 +1,5 @@
+</div>
+
 <div class="footer-wrapper">
     <div class="footer-main">
         <div class="foter-left">
@@ -14,10 +16,15 @@
 
 <?php wp_footer(); ?>
 
-<script type="text/javascript">
-        
-    $( '#carousel' ).elastislide();
+<?php if(is_home()): ?>
+
+    <script type="text/javascript">
             
-</script>
+        $( '#carousel' ).elastislide();
+                
+    </script>
+
+<?php endif; ?>
+
 </body>
 </html>

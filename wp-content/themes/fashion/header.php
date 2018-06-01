@@ -2,11 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!--<link rel="stylesheet" type="text/css" href="style.css" />-->
-
-<!--<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
-<link rel="stylesheet" type="text/css" href="css/custom.css" />
-<script src="js/modernizr.custom.17475.js"></script>-->
 
 <!--[if gte IE 9]>
   <style type="text/css">
@@ -27,7 +22,6 @@
   </style>
 <![endif]-->
         
-<title>Fashion photographer</title>
 <?php wp_head(); ?>
 </head>
 
