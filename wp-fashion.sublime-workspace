@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"wp_get_attachment_ima",
+				"wp_get_attachment_image"
+			],
+			[
+				"wp_get_at",
+				"wp_get_attachment_image_src"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_script"
+			],
+			[
+				"get_templ",
+				"get_template_directory_uri"
+			],
+			[
+				"is_ca",
+				"is_category"
+			],
+			[
 				"is_act",
 				"is_active_sidebar"
 			],
@@ -18,10 +38,6 @@
 			[
 				"the_conn",
 				"the_content"
-			],
-			[
-				"wp_en",
-				"wp_enqueue_style"
 			],
 			[
 				"get_style",
@@ -498,22 +514,6 @@
 			[
 				"scro",
 				"scrollTop\t.scrollTop()"
-			],
-			[
-				"qu",
-				"questions-bg.jpg\tw:1920 h:280"
-			],
-			[
-				"tabs__",
-				"tabs__item\t(index.html)"
-			],
-			[
-				"tabs_",
-				"tabs__content\t(index.html)"
-			],
-			[
-				"box",
-				"box-shadow"
 			]
 		]
 	},
@@ -523,25 +523,25 @@
 			"file": "wp-content/themes/fashion/functions.php",
 			"settings":
 			{
-				"buffer_size": 1772,
+				"buffer_size": 3097,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-content/themes/fashion/index.php",
+			"file": "wp-content/themes/fashion/contacts-page.php",
 			"settings":
 			{
-				"buffer_size": 1643,
+				"buffer_size": 1119,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "wp-content/themes/fashion/page.php",
+			"file": "wp-content/themes/fashion/contact.html",
 			"settings":
 			{
-				"buffer_size": 1059,
+				"buffer_size": 3262,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -550,7 +550,7 @@
 			"file": "wp-content/themes/fashion/style.css",
 			"settings":
 			{
-				"buffer_size": 6601,
+				"buffer_size": 6935,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -559,7 +559,7 @@
 			"file": "TODO",
 			"settings":
 			{
-				"buffer_size": 652,
+				"buffer_size": 1283,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -572,10 +572,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
+		"height": 138.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"filediff",
+				"FileDiffs: Menu"
+			],
+			[
+				"tasks",
+				"Tasks: View as HTML"
+			],
+			[
+				"keybin",
+				"Preferences: Terminal Key Bindings – User"
+			],
 			[
 				"uplo",
 				"Sync Settings: Upload"
@@ -647,10 +659,6 @@
 			[
 				"list pa",
 				"Package Control: List Packages"
-			],
-			[
-				"keybin",
-				"Preferences: Terminal Key Bindings – User"
 			],
 			[
 				"settings",
@@ -885,7 +893,7 @@
 				"Sync Settings: Download"
 			]
 		],
-		"width": 560.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -908,22 +916,34 @@
 		"/C/OSPanel/domains/wp-fashion.loc",
 		"/C/OSPanel/domains/wp-fashion.loc/wp-content",
 		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes",
-		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion",
-		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/twentysixteen"
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion"
 	],
 	"file_history":
 	[
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/single.php",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/exhibitions.html",
 		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/header.php",
 		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/footer.php",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/category-exhibitions.php",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/category.php",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/portfolio-page.html",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/single-portfolio.php",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/index.php",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/portfolio.html",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/portfolio-code.html",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/index-code.html",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/sidebar.php",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/index.html",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/page.php",
+		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/style.css",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/twentysixteen/style.css",
 		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/twentyfifteen/style.css",
 		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/about.html",
-		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
-		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/OSPanel/domains/wp-fashion.loc/TODO",
 		"/C/OSPanel/domains/wp-fashion.loc/TODO.todo",
 		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/Default (Windows).sublime-keymap",
-		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/index.html",
 		"/C/OSPanel/domains/wp-fashion.loc/wp-content/themes/fashion/images/loading.gif",
 		"/Z/courses/WordPress-Мастер/disk2/Plus/Part2/Lesson1/style.css",
 		"/Z/courses/WordPress-Мастер/disk2/Plus/Part2/Lesson1/portfolio-page.html",
@@ -1027,20 +1047,7 @@
 		"/C/Users/User/Desktop/test/style.css",
 		"/C/Users/User/Desktop/test/index.html",
 		"/C/Users/User/Downloads/test.html",
-		"/C/OSPanel/domains/wp-lavrik.loc/wp-content/themes/test/functions.php",
-		"/C/OSPanel/domains/seriiserii825.github.io/Website/build/js/main.js",
-		"/C/OSPanel/domains/wp-lavrik.loc/wp-content/themes/test/header.php",
-		"/C/OSPanel/domains/wp-lavrik.loc/wp-content/themes/test/assets/index.html",
-		"/C/OSPanel/domains/wp-lavrik.loc/wp-content/themes/test/style.css",
-		"/C/Users/User/Downloads/style.css",
-		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
-		"/C/OSPanel/domains/wp-lavrik.loc/wp-content/themes/test/index.php",
-		"/O/courses/wordpress-lavrik/Урок 5/wp-lesson5-src/test/header.php",
-		"/O/courses/wordpress-lavrik/Урок 4/wp-lesson4-src/header.php",
-		"/O/courses/wordpress-lavrik/Урок 3/wp-lesson3-src/header.php",
-		"/C/OSPanel/domains/city-fence.loc/src/templates/end.html",
-		"/C/OSPanel/domains/city-fence.loc/src/assets/sass/style.scss",
-		"/C/OSPanel/domains/city-fence.loc/src/portfolio.html"
+		"/C/OSPanel/domains/wp-lavrik.loc/wp-content/themes/test/functions.php"
 	],
 	"find":
 	{
@@ -1058,6 +1065,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"2",
+			"place'",
+			"#",
 			"Alignments",
 			"align",
 			"alignme",
@@ -1092,7 +1102,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1101,15 +1111,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1772,
+						"buffer_size": 3097,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1160,
-								1160
+								673,
+								673
 							]
 						],
 						"settings":
@@ -1131,24 +1141,24 @@
 								{
 									"1":
 									[
-										310,
-										311
+										815,
+										816
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										119,
-										120
+										256,
+										257
 									]
 								},
 								"unmatched":
@@ -1157,36 +1167,11 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1197,11 +1182,36 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1219,8 +1229,8 @@
 								{
 									"1":
 									[
-										1161,
-										1162
+										682,
+										683
 									]
 								},
 								"icon":
@@ -1235,8 +1245,8 @@
 								{
 									"1":
 									[
-										1081,
-										1082
+										630,
+										631
 									]
 								},
 								"unmatched":
@@ -1245,61 +1255,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bs_sintax": "php",
 							"buffer_scroll_name": "687192d6",
@@ -1311,35 +1321,32 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "wp-content/themes/fashion/index.php",
+					"file": "wp-content/themes/fashion/contacts-page.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1643,
+						"buffer_size": 1119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								332,
+								332
 							]
 						],
 						"settings":
 						{
-							"SL.15.region_keys":
-							[
-							],
-							"SL.39.region_keys":
+							"SL.97.region_keys":
 							[
 								"sublime_linter.protected_regions"
 							],
@@ -1350,27 +1357,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										522,
-										523
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
-										"region.greenish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										518,
-										519
-									]
 								},
 								"unmatched":
 								{
@@ -1378,36 +1370,11 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1418,11 +1385,36 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1440,24 +1432,24 @@
 								{
 									"1":
 									[
-										196,
-										201
+										334,
+										337
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/dot.png",
-										"region.yellowish brackethighlighter.default"
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										68,
-										70
+										260,
+										263
 									]
 								},
 								"unmatched":
@@ -1466,101 +1458,99 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bs_sintax": "php",
-							"buffer_scroll_name": "1bd0bb7b",
-							"easy_motion_mode": false,
+							"buffer_scroll_name": "794bbd3a",
 							"git_gutter_is_enabled": true,
 							"git_savvy.repo_path": "C:\\OSPanel\\domains\\wp-fashion.loc",
 							"spell_check": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "wp-content/themes/fashion/page.php",
+					"file": "wp-content/themes/fashion/contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1059,
+						"buffer_size": 3262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								361,
-								361
+								2747,
+								2090
 							]
 						],
 						"settings":
 						{
-							"SL.39.region_keys":
+							"SL.104.region_keys":
 							[
-								"sublime_linter.protected_regions"
 							],
 							"apply_syntax_touched": true,
 							"bracket_highlighter.busy": false,
@@ -1569,12 +1559,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										2743,
+										2746
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										2091,
+										2094
+									]
 								},
 								"unmatched":
 								{
@@ -1582,76 +1587,76 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "794bbd3a",
+							"bs_sintax": "html",
+							"buffer_scroll_name": "092fb24d",
 							"git_gutter_is_enabled": true,
 							"git_savvy.repo_path": "C:\\OSPanel\\domains\\wp-fashion.loc",
 							"spell_check": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 776.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1660,19 +1665,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6601,
+						"buffer_size": 6935,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3532,
-								3532
+								6432,
+								6432
 							]
 						],
 						"settings":
 						{
+							"SL.62.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
@@ -1682,8 +1690,8 @@
 								{
 									"1":
 									[
-										5263,
-										5264
+										6624,
+										6625
 									]
 								},
 								"icon":
@@ -1698,8 +1706,8 @@
 								{
 									"1":
 									[
-										5204,
-										5205
+										6610,
+										6611
 									]
 								},
 								"unmatched":
@@ -1708,61 +1716,61 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1770,8 +1778,8 @@
 								{
 									"1":
 									[
-										3559,
-										3560
+										6540,
+										6541
 									]
 								},
 								"icon":
@@ -1786,8 +1794,8 @@
 								{
 									"1":
 									[
-										3512,
-										3513
+										6277,
+										6278
 									]
 								},
 								"unmatched":
@@ -1796,74 +1804,76 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bs_sintax": "css",
 							"buffer_scroll_name": "d86b09fe",
 							"git_gutter_is_enabled": true,
 							"git_savvy.repo_path": "C:\\OSPanel\\domains\\wp-fashion.loc",
 							"spell_check": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1294.0,
+						"translation.y": 3188.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1872,19 +1882,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 652,
+						"buffer_size": 1283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								656,
+								656
 							]
 						],
 						"settings":
 						{
+							"SL.18.region_keys":
+							[
+							],
 							"apply_syntax_touched": true,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
@@ -1905,61 +1918,61 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1978,64 +1991,65 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bs_sintax": "plaintasks",
 							"buffer_scroll_name": "48a29947",
+							"easy_motion_mode": false,
 							"git_gutter_is_enabled": true,
 							"git_savvy.repo_path": "C:\\OSPanel\\domains\\wp-fashion.loc",
 							"plain_tasks_remain_time_phantoms":
@@ -2048,7 +2062,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -2109,7 +2123,7 @@
 	"project": "wp-fashion.sublime-project",
 	"replace":
 	{
-		"height": 114.0
+		"height": 52.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -2119,19 +2133,71 @@
 		"selected_items":
 		[
 			[
-				"header.",
-				"wp-content\\themes\\fashion\\header.php"
+				"contact.html",
+				"wp-content\\themes\\fashion\\contact.html"
+			],
+			[
+				"contacts",
+				"wp-content\\themes\\fashion\\contacts-page.php"
+			],
+			[
+				"exhi",
+				"wp-content\\themes\\fashion\\exhibitions.html"
+			],
+			[
+				"single.php",
+				"wp-content\\themes\\fashion\\single.php"
+			],
+			[
+				"cate",
+				"wp-content\\themes\\fashion\\category.php"
 			],
 			[
 				"footer",
 				"wp-content\\themes\\fashion\\footer.php"
 			],
 			[
-				"header.ph",
-				"wp-content\\themes\\fashion\\header.php"
+				"portfolio-pa",
+				"wp-content\\themes\\fashion\\portfolio-page.html"
 			],
 			[
 				"header",
+				"wp-content\\themes\\fashion\\header.php"
+			],
+			[
+				"porto",
+				"wp-content\\themes\\fashion\\portfolio-page.html"
+			],
+			[
+				"style.cs",
+				"wp-content\\themes\\fashion\\style.css"
+			],
+			[
+				"sideb",
+				"wp-content\\themes\\fashion\\sidebar.php"
+			],
+			[
+				"index.html",
+				"wp-content\\themes\\fashion\\index.html"
+			],
+			[
+				"index.php",
+				"wp-content\\themes\\fashion\\index.php"
+			],
+			[
+				"sidbar",
+				"wp-content\\themes\\fashion\\sidebar.php"
+			],
+			[
+				"page.php",
+				"wp-content\\themes\\fashion\\page.php"
+			],
+			[
+				"header.",
+				"wp-content\\themes\\fashion\\header.php"
+			],
+			[
+				"header.ph",
 				"wp-content\\themes\\fashion\\header.php"
 			],
 			[
@@ -2149,10 +2215,6 @@
 			[
 				"plat",
 				"plain-task.todo"
-			],
-			[
-				"index.html",
-				"wp-content\\themes\\fashion\\index.html"
 			],
 			[
 				"wfm-ajax-sc",
@@ -2177,10 +2239,6 @@
 			[
 				"script.js",
 				"wp-content\\plugins\\wfm-dynamic-google-maps\\script.js"
-			],
-			[
-				"index.php",
-				"wp-content\\plugins\\wfm-dynamic-google-maps\\index.php"
 			],
 			[
 				"index",
@@ -2305,10 +2363,6 @@
 			[
 				"style.scs",
 				"src\\assets\\sass\\style.scss"
-			],
-			[
-				"contacts",
-				"src\\contacts.html"
 			],
 			[
 				"end",

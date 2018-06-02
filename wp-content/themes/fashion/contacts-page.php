@@ -1,11 +1,9 @@
-
 <?php 
 /*
 Template Name: шаблон страницы контактов
  */
 get_header(); ?>
 <div class="content-main">
-
     <div class="content-left">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <h1><?php the_title(); ?></h1>
@@ -21,23 +19,37 @@ get_header(); ?>
 
     <div class="sidebar">
       <div>
-          <?php the_post_thumbnail(); ?>
-            <h1>Contact Details</h1>
-            <p class="contact-address">18, Your Street, Yourareaname, Cityname,
-            Countyname, DE1 2WX, United Kingdom.</p>
-            
-            <p class="contact-phone">0800 900 0003</p>
-            
-            <p class="contact-mail">youremail@yoursite.com</p>
-            
-            <p class="contact-liciense">Registered photographer No. 09900-CCC</p>
-            
-            <p>VAT registered business number 455-5559-000</p>
-
+          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+              <p><?php the_post_thumbnail(); ?></p>
+              <h1>Contact Details</h1>
+              <?php 
+                $contacts_custom = get_post_custom( get_the_ID() ); 
+                $pattern = '#^contact-#';
+              ?>
+                <?php foreach($contacts_custom as $key => $value): ?>
+                  <?php if(preg_match($pattern, $key)): ?>
+                    <p class="<?php echo $key; ?>"><?php echo $value[0]; ?></p>
+                  <?php endif; ?>
+                <?php endforeach; ?>
+            <?php endwhile; ?>
+            <!-- post navigation -->
+            <?php else: ?>
+            <!-- no posts found -->
+          <?php endif; ?>
         </div>
     </div>
-
-  
-
 </div>  
 <?php get_footer(); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
