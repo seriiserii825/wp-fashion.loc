@@ -22,7 +22,7 @@ function fashion_shortcode_gallery($atts){
         }else{
             $html .= '<li>'.$img.'</li>';
         }
-        
+        $i++;
     }
 
     $html .= '<a data-slidik="slide_2" class="next" href="#">Next</a>
